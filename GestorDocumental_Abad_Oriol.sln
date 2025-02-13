@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDocumental_Abad_Oriol", "GestorDocumental_Abad_Oriol\GestorDocumental_Abad_Oriol.csproj", "{96443527-8C8B-46AE-89E8-7536E8DCD746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockchainNuevo", "BlockchainNuevo\BlockchainNuevo.csproj", "{B084035F-CB15-4D34-9FD7-B66F63228CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96443527-8C8B-46AE-89E8-7536E8DCD746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96443527-8C8B-46AE-89E8-7536E8DCD746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96443527-8C8B-46AE-89E8-7536E8DCD746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96443527-8C8B-46AE-89E8-7536E8DCD746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B084035F-CB15-4D34-9FD7-B66F63228CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B084035F-CB15-4D34-9FD7-B66F63228CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B084035F-CB15-4D34-9FD7-B66F63228CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B084035F-CB15-4D34-9FD7-B66F63228CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E11595E7-E7F5-4C0D-AB72-C00CB8448B2B}
+	EndGlobalSection
+EndGlobal
