@@ -37,6 +37,7 @@ namespace GestorDocumental_Abad_Oriol
             this.txtIndex = new System.Windows.Forms.TextBox();
             this.lblIndex = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.pbStatus = new System.Windows.Forms.PictureBox();
             this.lblVerification2 = new System.Windows.Forms.Label();
             this.lblVerification1 = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@ namespace GestorDocumental_Abad_Oriol
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus)).BeginInit();
@@ -90,7 +90,7 @@ namespace GestorDocumental_Abad_Oriol
             this.btnCheck.Enabled = false;
             this.btnCheck.Location = new System.Drawing.Point(10, 56);
             this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(75, 53);
+            this.btnCheck.Size = new System.Drawing.Size(90, 53);
             this.btnCheck.TabIndex = 2;
             this.btnCheck.Text = "Check document";
             this.btnCheck.UseVisualStyleBackColor = true;
@@ -126,6 +126,15 @@ namespace GestorDocumental_Abad_Oriol
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Verification reult";
             this.groupBox2.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(79, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
             // 
             // pbStatus
             // 
@@ -208,15 +217,6 @@ namespace GestorDocumental_Abad_Oriol
             this.lblTitle.Size = new System.Drawing.Size(327, 32);
             this.lblTitle.TabIndex = 9;
             this.lblTitle.Text = "File Verification BlockChain";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 80);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
             // 
             // FrmHome
             // 
