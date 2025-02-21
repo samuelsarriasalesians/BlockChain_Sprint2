@@ -12,7 +12,6 @@ C:\Projectes_Csharp\GestorDocumental_Abad_Oriol\GestorDocumental_Abad_Oriol\obj\
 C:\proyecto_clase_git\BlockChain_Sprint2\App\GestorDocumental_Abad_Oriol.exe.config
 C:\proyecto_clase_git\BlockChain_Sprint2\App\GestorDocumental_Abad_Oriol.exe
 C:\proyecto_clase_git\BlockChain_Sprint2\App\GestorDocumental_Abad_Oriol.pdb
-C:\proyecto_clase_git\BlockChain_Sprint2\GestorDocumental_Abad_Oriol\obj\Debug\GestorDocumental_Abad_Oriol.csproj.AssemblyReference.cache
 C:\proyecto_clase_git\BlockChain_Sprint2\GestorDocumental_Abad_Oriol\obj\Debug\GestorDocumental_Abad_Oriol.FrmHome.resources
 C:\proyecto_clase_git\BlockChain_Sprint2\GestorDocumental_Abad_Oriol\obj\Debug\GestorDocumental_Abad_Oriol.Properties.Resources.resources
 C:\proyecto_clase_git\BlockChain_Sprint2\GestorDocumental_Abad_Oriol\obj\Debug\GestorDocumental_Abad_Oriol.FrmSplash.resources

@@ -183,9 +183,11 @@ namespace GestorDocumental_Abad_Oriol
             // 
             // dtgBlockChain
             // 
+            this.dtgBlockChain.AllowUserToAddRows = false;
             this.dtgBlockChain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgBlockChain.Location = new System.Drawing.Point(59, 232);
             this.dtgBlockChain.Name = "dtgBlockChain";
+            this.dtgBlockChain.ReadOnly = true;
             this.dtgBlockChain.RowHeadersWidth = 51;
             this.dtgBlockChain.RowTemplate.Height = 24;
             this.dtgBlockChain.Size = new System.Drawing.Size(847, 259);
