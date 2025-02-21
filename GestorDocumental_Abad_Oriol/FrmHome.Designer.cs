@@ -46,6 +46,7 @@ namespace GestorDocumental_Abad_Oriol
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbStatus)).BeginInit();
@@ -93,7 +94,7 @@ namespace GestorDocumental_Abad_Oriol
             this.btnCheck.TabIndex = 2;
             this.btnCheck.Text = "Check document";
             this.btnCheck.UseVisualStyleBackColor = true;
-            this.btnCheck.Click += new System.EventHandler(this.btnShowBlockChain_Click);
+            this.btnCheck.Click += new System.EventHandler(this.btnCheckDocument_Click);
             // 
             // txtIndex
             // 
@@ -114,20 +115,22 @@ namespace GestorDocumental_Abad_Oriol
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.pbStatus);
             this.groupBox2.Controls.Add(this.lblVerification2);
             this.groupBox2.Controls.Add(this.lblVerification1);
-            this.groupBox2.Location = new System.Drawing.Point(377, 67);
+            this.groupBox2.Location = new System.Drawing.Point(364, 67);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 115);
+            this.groupBox2.Size = new System.Drawing.Size(243, 132);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Verification reult";
+            this.groupBox2.Visible = false;
             // 
             // pbStatus
             // 
             this.pbStatus.Image = ((System.Drawing.Image)(resources.GetObject("pbStatus.Image")));
-            this.pbStatus.Location = new System.Drawing.Point(20, 46);
+            this.pbStatus.Location = new System.Drawing.Point(20, 56);
             this.pbStatus.Name = "pbStatus";
             this.pbStatus.Size = new System.Drawing.Size(53, 50);
             this.pbStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,20 +140,20 @@ namespace GestorDocumental_Abad_Oriol
             // lblVerification2
             // 
             this.lblVerification2.AutoSize = true;
-            this.lblVerification2.Location = new System.Drawing.Point(113, 56);
+            this.lblVerification2.Location = new System.Drawing.Point(79, 56);
             this.lblVerification2.Name = "lblVerification2";
-            this.lblVerification2.Size = new System.Drawing.Size(46, 17);
+            this.lblVerification2.Size = new System.Drawing.Size(23, 17);
             this.lblVerification2.TabIndex = 1;
-            this.lblVerification2.Text = "label3";
+            this.lblVerification2.Text = "ok";
             // 
             // lblVerification1
             // 
             this.lblVerification1.AutoSize = true;
-            this.lblVerification1.Location = new System.Drawing.Point(27, 26);
+            this.lblVerification1.Location = new System.Drawing.Point(17, 27);
             this.lblVerification1.Name = "lblVerification1";
-            this.lblVerification1.Size = new System.Drawing.Size(46, 17);
+            this.lblVerification1.Size = new System.Drawing.Size(216, 17);
             this.lblVerification1.TabIndex = 0;
-            this.lblVerification1.Text = "label2";
+            this.lblVerification1.Text = "Result for the document checked";
             // 
             // lblDifficulty
             // 
@@ -167,22 +170,23 @@ namespace GestorDocumental_Abad_Oriol
             this.txtDifficulty.Name = "txtDifficulty";
             this.txtDifficulty.Size = new System.Drawing.Size(30, 22);
             this.txtDifficulty.TabIndex = 5;
+            this.txtDifficulty.Text = "2";
             // 
             // dtgBlockChain
             // 
             this.dtgBlockChain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgBlockChain.Location = new System.Drawing.Point(69, 229);
+            this.dtgBlockChain.Location = new System.Drawing.Point(59, 232);
             this.dtgBlockChain.Name = "dtgBlockChain";
             this.dtgBlockChain.RowHeadersWidth = 51;
             this.dtgBlockChain.RowTemplate.Height = 24;
-            this.dtgBlockChain.Size = new System.Drawing.Size(826, 259);
+            this.dtgBlockChain.Size = new System.Drawing.Size(847, 259);
             this.dtgBlockChain.TabIndex = 6;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(602, 51);
+            this.listBox1.Location = new System.Drawing.Point(613, 51);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(293, 148);
             this.listBox1.TabIndex = 7;
@@ -205,6 +209,15 @@ namespace GestorDocumental_Abad_Oriol
             this.lblTitle.TabIndex = 9;
             this.lblTitle.Text = "File Verification BlockChain";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(79, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -223,6 +236,7 @@ namespace GestorDocumental_Abad_Oriol
             this.Name = "FrmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmHome";
+            this.Load += new System.EventHandler(this.FrmHome_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -252,5 +266,6 @@ namespace GestorDocumental_Abad_Oriol
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -21,7 +21,7 @@ namespace BlockchainNuevo
 
         public void AddGenesisBlock()
         {
-            Chain.Add(new Block(0, DateTime.Now, "GENESIS_BLOCK", ""));
+            Chain.Add(new Block(0, DateTime.Now, "BLOCK_INICIAL", ""));
         }
 
         public Block GetLatestBlock()

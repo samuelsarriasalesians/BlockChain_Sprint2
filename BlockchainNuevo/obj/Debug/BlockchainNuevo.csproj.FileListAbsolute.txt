@@ -18,3 +18,11 @@ C:\Projectes_Csharp\GestorDocumental_Abad_Oriol\BlockchainNuevo\obj\Debug\Blockc
 C:\Projectes_Csharp\GestorDocumental_Abad_Oriol\BlockchainNuevo\obj\Debug\BlockchainNuevo.dll
 C:\Projectes_Csharp\GestorDocumental_Abad_Oriol\BlockchainNuevo\obj\Debug\BlockchainNuevo.pdb
 C:\Projectes_Csharp\GestorDocumental_Abad_Oriol\BlockchainNuevo\obj\Debug\BlockchainNuevo.csproj.AssemblyReference.cache
+C:\proyecto_clase_git\BlockChain_Sprint2\App\BlockchainNuevo.dll.config
+C:\proyecto_clase_git\BlockChain_Sprint2\App\BlockchainNuevo.dll
+C:\proyecto_clase_git\BlockChain_Sprint2\App\BlockchainNuevo.pdb
+C:\proyecto_clase_git\BlockChain_Sprint2\BlockchainNuevo\obj\Debug\BlockchainNuevo.csproj.AssemblyReference.cache
+C:\proyecto_clase_git\BlockChain_Sprint2\BlockchainNuevo\obj\Debug\BlockchainNuevo.csproj.CoreCompileInputs.cache
+C:\proyecto_clase_git\BlockChain_Sprint2\BlockchainNuevo\obj\Debug\BlockchainNuevo.csproj.CopyComplete
+C:\proyecto_clase_git\BlockChain_Sprint2\BlockchainNuevo\obj\Debug\BlockchainNuevo.dll
+C:\proyecto_clase_git\BlockChain_Sprint2\BlockchainNuevo\obj\Debug\BlockchainNuevo.pdb

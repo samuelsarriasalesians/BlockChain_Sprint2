@@ -85,8 +85,8 @@ namespace GestorDocumental_Abad_Oriol
 
         private void InitializeNewBlockchain()
         {
+            
             Blockchain = new Blockchain(2); // Dificultad 2
-            Blockchain.Chain[0].Data = "BLOC_INICIAL";  
             SaveBlockchain();
         }
 

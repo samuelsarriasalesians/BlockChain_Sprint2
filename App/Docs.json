@@ -2,11 +2,27 @@
   "Chain": [
     {
       "Index": 0,
-      "Timestamp": "2025-02-13T17:57:11.4363357+01:00",
-      "Hash": "tf9hxfAOgjupmuxynquTnc0cSGanU6O/z/EtToibexA=",
-      "Data": "BLOC_INICIAL",
+      "Timestamp": "2025-02-13T20:58:38.6587362+01:00",
+      "Hash": "zRPuwzDvwQb/7pek24R9JOzp1VLflzmP1NUHv3pjR0I=",
+      "Data": "BLOCK_INICIAL",
       "PreviousHash": "",
       "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13T20:58:59.1413096+01:00",
+      "Hash": "000ZTmhly/cFaPOmfVHpEwuHtsasS2y9z/gy1SsYgqo=",
+      "Data": "fghjkl",
+      "PreviousHash": "zRPuwzDvwQb/7pek24R9JOzp1VLflzmP1NUHv3pjR0I=",
+      "Nonce": 1272633
+    },
+    {
+      "Index": 2,
+      "Timestamp": "2025-02-21T17:45:55.6004216+01:00",
+      "Hash": "00STCadBcjke/f2AY4Hu1XyrxWHOO7gq3sfrmtCk158=",
+      "Data": "Hola que tal",
+      "PreviousHash": "000ZTmhly/cFaPOmfVHpEwuHtsasS2y9z/gy1SsYgqo=",
+      "Nonce": 5286
     }
   ],
   "Difficulty": 2
